@@ -1,0 +1,18 @@
+#include<iostream>
+#inlcude<string>
+using namespace std;
+int main()
+{
+float id;
+int quantity;
+float cost;
+cout<<"enter id:  ";
+cin>>id;
+cout<<"enter quantity:  ";
+cin>>quantity;
+cout<<"enter cost:  ";
+cin>>cost;
+cout<<"Enter total vlaue:  ";
+cout<<cost*quantity;
+return (0);
+}
